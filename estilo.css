@@ -1,0 +1,87 @@
+
+
+
+/*===============Base Styles===============*/
+body{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    color: rgb(255, 145, 0);
+    font-size: 24px;
+}
+
+
+/*===============Header===============*/
+header{
+    background-color: #5e0fac;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*===============Section===============*/
+section{
+    margin: 20px;
+}
+
+
+/*===============Footer===============*/
+footer{
+    background-color: #5c3a3a;
+}
+
+
+nav a{
+    color: rgb(255, 145, 0);
+}
+
+nav ul{
+    list-style: none;      /* tira as bolinhas da lista */
+    display: flex;           /* coloca os itens lado a lado */
+    justify-content:space-around; /* centraliza horizontal */
+    padding: 20px;            /* tira espaçamento padrão */
+}
+
+#banner {
+    width: 80%;       /* cobre toda a largura da tela */
+    height: 300px;     /* ajuste manual da altura */
+    object-fit: cover; /* mantém proporção e corta se necessário */
+    display: block;    /* remove espaçamento extra de inline */
+    margin: 0 auto;
+}
+
+#divHome {
+    width: 50%;       /* cobre toda a largura da tela */
+    object-fit: cover; /* mantém proporção e corta se necessário */
+    display: block;    /* remove espaçamento extra de inline */ 
+    margin: auto;
+}
+
+body {
+  background-color: #141414;
+}
+
+.divLateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background: #1c1c1c;
+}
+
+.divLateralDireita {
+    position: fixed;
+    top: 0;
+    right:0%;
+    width: 200px;
+    height: 100vh;
+    background: #1c1c1c;
+}
+
+main {
+margin-left: 200px;   /* espaço pro menu da esquerda */
+margin-right: 200px;  /* espaço pro menu da direita */
+}
